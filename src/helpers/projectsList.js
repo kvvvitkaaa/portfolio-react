@@ -4,7 +4,7 @@ import bookstoreBig from '../images/projects/bookstore-Big.png';
 const projects = [
 	{
 		title: 'Bookstore',
-		skills: 'React, React Router, Context API, LocalStorage, JSON, Javascript, CSS, HTML5',
+		skills: 'React, React Router, Context API, LocalStorage, Responsive design, JSON, Javascript, CSS, HTML5',
 		img: bookstore,
 		imgBig: bookstoreBig,
 		gitHubLink: 'https://github.com/kvvvitkaaa/Bookstore',
