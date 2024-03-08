@@ -1,0 +1,70 @@
+/*nav*/
+
+.nav {
+    
+    padding: 20px 0;
+    background-color: var(--nav-bg);
+    color: var(--textcolor);
+    border-bottom: 1px solid var(--dark-border);
+}
+.logo {
+    margin-right: auto;
+
+    color: var(--textcolor);
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+
+    transition: opasity 2s ease-in;
+}
+.logo:hover {
+    opacity: 0.8;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 40px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.routes {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.routes-item__link {
+    position: relative;
+    color: var(--textcolor);
+    font-size: 15px;
+
+    transition: opasity 80ms ease-in;
+}
+
+.routes-item__link:hover{
+    opacity: 0.7;
+}
+
+.routes-item__link:active {
+    position: relative;
+    top: 2px;
+}
+
+.routes-item__link--active {
+    position: relative;
+    font-weight: 700;
+}
+.routes-item__link--active::before {
+    position: absolute;
+
+    content: "";
+
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--accent);
+    left: 0;
+    top: 100%;
+}

@@ -1,0 +1,21 @@
+.project-image {
+    max-width: 370px;
+    border-radius: 10px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+    letter-spacing: -0.5px;
+    color: var(--textcolor);
+
+    padding: 15px 0px 25px 20px;
+}
+
+.project {
+    border-radius: 10px;
+    background: var(--bg-projectcard);
+    box-shadow: var(--box-shadow);
+}
